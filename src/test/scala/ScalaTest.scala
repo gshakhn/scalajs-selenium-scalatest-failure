@@ -1,7 +1,7 @@
 import org.scalatest.FunSpec
 
-class Test extends FunSpec {
-  describe("A failing test") {
+class ScalaTest extends FunSpec {
+  describe("ScalaTest failure") {
     it("should blow up") {
       assert(1 == 2)
     }
