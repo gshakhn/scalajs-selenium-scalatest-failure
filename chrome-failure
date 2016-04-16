@@ -1,0 +1,32 @@
+[0m[[0minfo[0m] [0mLoading global plugins from /Users/gshakhnazaryan/.sbt/0.13/plugins[0m
+[0m[[0minfo[0m] [0mLoading project definition from /Users/gshakhnazaryan/dev/scalajs-selenium-scalatest-failure/project[0m
+[0m[[0minfo[0m] [0mSet current project to Scala.js ScalaTest Selenium Failure Example (in build file:/Users/gshakhnazaryan/dev/scalajs-selenium-scalatest-failure/)[0m
+Reporter completed abruptly with an exception after receiving event: TestFailed(Ordinal(0, 3),org.scalatest.exceptions.TestFailedException was thrown.,ScalaTest,ScalaTest,Some(ScalaTest),ScalaTest failure should blow up,should blow up,Vector(),Some(org.scalatest.exceptions.TestFailedException),Some(3),Some(IndentedText(- should blow up,should blow up,1)),Some(SeeStackDepthException),Some(ScalaTest),None,main-ScalaTest-running-ScalaTest,1460780636536).
+TypeError: Cannot read property 'fileName$1' of undefined
+  at org.scalatest.exceptions.StackDepthExceptionHelper$.getStackDepth(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:10322:52)
+  at {anonymous}()(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:10342:72)
+  at scala.scalajs.runtime.AnonFunction1.apply(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:30127:23)
+  at $c_Lorg_scalatest_exceptions_TestFailedException.$c_Lorg_scalatest_exceptions_StackDepthException.failedCodeStackDepth$lzycompute__p4__I(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:40121:70)
+  at $c_Lorg_scalatest_exceptions_TestFailedException.$c_Lorg_scalatest_exceptions_StackDepthException.failedCodeStackDepth__I(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:40157:48)
+  at org.scalatest.exceptions.StackDepth$class.stackTraceElement(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:10236:107)
+  at org.scalatest.exceptions.StackDepth$class.failedCodeFileName(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:10229:122)
+  at org.scalatest.exceptions.StackDepth$class.failedCodeFileNameAndLineNumberString(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:10240:16)
+  at org.scalatest.tools.StringReporter$.withPossibleLineNumber(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:14091:18)
+  at org.scalatest.tools.StringReporter$.fragmentsForEvent(file:///var/folders/n2/n5k331654q532mp6j661zxfh0000gn/T/1460780625247-0/scala-js-scalatest-selenium-failure-example-test-fastopt.js:13412:67)
+[0m[[0minfo[0m] [0m[32mScalaTest:[0m[0m
+[0m[[0minfo[0m] [0m[32mScalaTest failure[0m[0m
+[0m[[0minfo[0m] [0mScalaTest[0m
+[0m[[0minfo[0m] [0m[36mRun completed in 3 seconds, 37 milliseconds.[0m[0m
+[0m[[0minfo[0m] [0m[36mTotal number of tests run: 1[0m[0m
+[0m[[0minfo[0m] [0m[36mSuites: completed 1, aborted 0[0m[0m
+[0m[[0minfo[0m] [0m[36mTests: succeeded 0, failed 1, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0minfo[0m] [0m[31m*** 1 TEST FAILED ***[0m[0m
+[0m[[0minfo[0m] [0mutest[0m
+[0m[[0minfo[0m] [0m-----------------------------------Results-----------------------------------[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0m[0m
+[0m[[0minfo[0m] [0mTests: 0[0m
+[0m[[0minfo[0m] [0mPassed: 0[0m
+[0m[[0minfo[0m] [0mFailed: 0[0m
+[0m[[0minfo[0m] [0mPassed: Total 0, Failed 0, Errors 0, Passed 0[0m
+[0m[[32msuccess[0m] [0mTotal time: 12 s, completed Apr 15, 2016 11:23:57 PM[0m
